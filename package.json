@@ -1,7 +1,7 @@
 {
   "name": "liri-node-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Bands In Town This will show the following information about the song in your terminal/bash window:",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,7 +19,8 @@
   "homepage": "https://github.com/DimiGod/LIRI-Bot#readme",
   "dependencies": {
     "axios": "^0.19.0",
-    "dotenv": "^8.0.0",
+    "dotenv": "^8.1.0",
+    "fs": "0.0.1-security",
     "moment": "^2.24.0",
     "node-spotify-api": "^1.1.1"
   }
