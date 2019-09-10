@@ -17,7 +17,7 @@ if (process.argv[2] == "spotify-this-song") {
     for (i=3; i<process.argv.length; i++){
       songName += process.argv[i] + " ";
     }
-  //Call the search song function.
+  //Call the search song function. this will use the spotify api in your node application.
   searchSpotify(songName);
   }else {
     searchForRandomSong();
